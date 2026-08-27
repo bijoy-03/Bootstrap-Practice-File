@@ -1,0 +1,46 @@
+/* 
+----- breakpoint list -------
+    x small                     > 576px
+    small                  sm   ≥ 576px 
+    Medium                 md   ≥ 768px
+    Large                  lg   ≥ 992px
+    Extra Large            xl   ≥ 1200px
+    Extra Extra Large      xxl  ≥ 1400px             
+
+*/
+/* 	Extra small
+<576px
+Small
+≥576px
+Medium
+≥768px
+Large
+≥992px
+X-Large
+≥1200px
+XX-Large
+≥1400px
+.container	    100%	540px	720px	960px	1140px	1320px
+.container-sm	100%	540px	720px	960px	1140px	1320px
+.container-md	100%	100%	720px	960px	1140px	1320px
+.container-lg	100%	100%	100%	960px	1140px	1320px
+.container-xl	100%	100%	100%	100%	1140px	1320px
+.container-xxl	100%	100%	100%	100%	100%	1320px
+.container-fluid	100%	100%	100%	100%	100%	100% 
+*/
+
+html, body{
+    height: 100%;
+}
+body{
+    background: url(img/venti-views-Mm4RbNQ_fRs-unsplash.jpg);
+    background-size: cover;
+}
+.form-login{
+    background: rgba(236,240,241.35);
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 450px;
+}

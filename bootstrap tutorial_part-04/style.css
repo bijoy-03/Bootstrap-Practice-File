@@ -1,0 +1,19 @@
+/* 
+----- breakpoint list -------
+    x small                     > 576px
+    small                  sm   ≥ 576px 
+    Medium                 md   ≥ 768px
+    Large                  lg   ≥ 992px
+    Extra Large            xl   ≥ 1200px
+    Extra Extra Large      xxl  ≥ 1400px             
+
+*/
+
+.child{
+    border: 5px solid var(--bs-green);
+    height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
